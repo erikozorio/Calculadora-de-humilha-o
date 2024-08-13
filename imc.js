@@ -19,7 +19,7 @@ function imc () {
         }else if (valorIMC < 30){
             classificacao = 'Umas caminhadas seram necessarias';
         }else if (valorIMC < 35){
-            classificacao = 'Um academia 4 vezes por semana';
+            classificacao = 'fazer academia 4 vezes por semana';
         }else if (valorIMC < 40){
             classificacao = 'Academia todos os dias e reduzir a quantidade de comida caloricas';
         }else {
