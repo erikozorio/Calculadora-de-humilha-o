@@ -13,7 +13,7 @@ function imc () {
         let classificacao = '';
 
         if (valorIMC < 18.5){
-            classificacao = 'tome cuidado o vento pode leva-lo para longe';
+            classificacao = 'tomar cuidado o vento pode leva-lo para longe';
         }else if (valorIMC < 25) {
             classificacao = 'Você está perfeito continue assim!!!';
         }else if (valorIMC < 30){
@@ -26,7 +26,7 @@ function imc () {
             classificacao = 'Academia todos os dias, caminhadas e fazer dieta sei que tu consegue :)';
         }
 
-        resultado.textContent = `${nome} seu IMC é ${valorIMC} e você está ${classificacao}`;
+        resultado.textContent = `${nome} seu IMC é ${valorIMC} e você precisa ${classificacao}`;
        
     }else {
         resultado.textContent = 'Preencha todos os campos!!!';
